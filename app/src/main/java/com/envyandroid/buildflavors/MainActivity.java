@@ -22,6 +22,8 @@ public class MainActivity extends ActionBarActivity {
         //You can get hold of your variable from the buildConfigField in build.gradle:
         //Will be true or false
         Log.d(LOG_TAG, "This is version: " + BuildConfig.IS_DONATE);
+
+        Log.d(LOG_TAG, "Version from Version.java: " + Version.getVersion());
     }
 
 
