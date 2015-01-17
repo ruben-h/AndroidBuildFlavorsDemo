@@ -14,3 +14,6 @@ Note:
 
 In previous versions of gradle, the naming was "packageName" and "buildConfig",
 but now the correct names are: "applicationId" and "buildConfigField".
+
+By [EnvyAndroid](http://envyandroid.com)
+
