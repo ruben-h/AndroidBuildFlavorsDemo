@@ -17,6 +17,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        free {
+            applicationId "com.envyandroid.buildflavors"
+            buildConfigField "boolean", "IS_DONATE", "false"
+        }
+        donate {
+            applicationId "com.envyandroid.buildflavors.donate"
+            buildConfigField "boolean", "IS_DONATE", "true"
+        }
+    }
 }
 
 dependencies {
