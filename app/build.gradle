@@ -19,7 +19,7 @@ android {
     }
     productFlavors {
         free {
-            applicationId "com.envyandroid.buildflavors"
+            applicationId "com.envyandroid.buildflavors.free"
             buildConfigField "boolean", "IS_DONATE", "false"
         }
         donate {
