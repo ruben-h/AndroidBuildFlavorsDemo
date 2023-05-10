@@ -15,6 +15,3 @@ Note:
 * In previous versions of gradle, the naming was "packageName" and "buildConfig",
 but now the correct names are: "applicationId" and "buildConfigField".
 * Only one of the /src/<flavor>/java folders will show "correctly" in blue in Android Studio, depending on the build variant you have selected
-
-By [EnvyAndroid](http://envyandroid.com)
-
